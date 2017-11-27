@@ -1,0 +1,48 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using HackerNewsClient.Models;
+using HackerNewsClient.Services;
+
+namespace HackerNewsClient.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly IHackerNewsService _hackerNewsService;
+
+        public HomeController(
+            IHackerNewsService hackerNewsService)
+        {
+            _hackerNewsService = hackerNewsService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var topStory = await _hackerNewsService.TopStoryAsync();
+
+            return View(topStory);
+        }
+
+        public IActionResult About()
+        {
+            ViewData["Message"] = "Your application description page.";
+
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}

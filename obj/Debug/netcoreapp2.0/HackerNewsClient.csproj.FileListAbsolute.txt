@@ -1,0 +1,11 @@
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\bin\Debug\netcoreapp2.0\HackerNewsClient.deps.json
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\bin\Debug\netcoreapp2.0\HackerNewsClient.runtimeconfig.json
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\bin\Debug\netcoreapp2.0\HackerNewsClient.runtimeconfig.dev.json
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\bin\Debug\netcoreapp2.0\HackerNewsClient.dll
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\bin\Debug\netcoreapp2.0\HackerNewsClient.pdb
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.csprojResolveAssemblyReference.cache
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.csproj.CoreCompileInputs.cache
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.AssemblyInfoInputs.cache
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.AssemblyInfo.cs
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.dll
+C:\Users\michaelwinick\projects\hacker\HackerNewsClient\HackerNewsClient\obj\Debug\netcoreapp2.0\HackerNewsClient.pdb
